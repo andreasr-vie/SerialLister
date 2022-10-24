@@ -24,6 +24,9 @@ namespace SerialLister
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+
             GetSerialPorts();
         }
 
